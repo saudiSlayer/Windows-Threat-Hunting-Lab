@@ -1,0 +1,14 @@
+timestamp,event_id,host,user,process,parent_process,command_line,source_ip,message
+2026-09-30 09:01:12,4624,WIN-LAB-01,alice,explorer.exe,userinit.exe,,10.0.0.20,Successful logon
+2026-09-30 09:03:41,4688,WIN-LAB-01,alice,powershell.exe,explorer.exe,powershell.exe -File C:\Scripts\inventory.ps1,10.0.0.20,Process created
+2026-09-30 09:05:22,4625,WIN-LAB-01,bob,,,,10.0.0.55,Failed logon
+2026-09-30 09:05:27,4625,WIN-LAB-01,bob,,,,10.0.0.55,Failed logon
+2026-09-30 09:05:31,4625,WIN-LAB-01,bob,,,,10.0.0.55,Failed logon
+2026-09-30 09:05:36,4625,WIN-LAB-01,bob,,,,10.0.0.55,Failed logon
+2026-09-30 09:05:42,4625,WIN-LAB-01,bob,,,,10.0.0.55,Failed logon
+2026-09-30 09:08:15,4688,WIN-LAB-01,admin,powershell.exe,winword.exe,powershell.exe -enc SQBtAHAAbwByAHQAYQBuAHQ=,10.0.0.20,Process created
+2026-09-30 09:10:04,4720,WIN-LAB-01,admin,net.exe,powershell.exe,net user backupadmin <REDACTED> /add,10.0.0.20,User account created
+2026-09-30 09:11:22,4672,WIN-LAB-01,admin,powershell.exe,cmd.exe,powershell.exe,10.0.0.20,Special privileges assigned
+2026-09-30 09:15:45,4688,WIN-LAB-01,admin,rundll32.exe,explorer.exe,"rundll32.exe javascript:""\..\mshtml,RunHTMLApplication""",10.0.0.20,Process created
+2026-09-30 09:20:10,4624,WIN-LAB-01,alice,explorer.exe,userinit.exe,,10.0.0.20,Successful logon
+2026-09-30 09:21:03,4688,WIN-LAB-01,alice,notepad.exe,explorer.exe,notepad.exe,10.0.0.20,Process created
