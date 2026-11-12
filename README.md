@@ -127,7 +127,7 @@ Windows-Threat-Hunting-Lab/
 # Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/saudiSlayer/Windows-Threat-Hunting-Lab
 ```
 
 Navigate into the project directory:
